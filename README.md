@@ -4,6 +4,8 @@ Slides from **AI 101**, presented at the **2026 AI Rising Conference** in **Colu
 
 By **Daneyand "DJ" Singley**, Technical Leader & Field CTO at IBM.
 
+**Live deck: <https://007style.github.io/AI101-openSlide/s/ai-101>**
+
 AI 101 is a vocabulary session with a hardware payoff. It starts with familiar examples and connects the terminology to the models behind today's AI applications. By the end you can follow a prompt to the GPU and explain why fitting a model in memory is only the beginning.
 
 The deck is built with [open-slide](https://open-slide.dev): every slide is a React component on a 1920 × 1080 canvas. It was converted from a PowerPoint deck, with animation added and the visuals redrawn.
@@ -78,6 +80,8 @@ npm run preview       # serve the built bundle
 | `←` | Previous |
 | `P` | Presenter view with notes and timer |
 | `Esc` | Exit play mode |
+
+The site is deployed to GitHub Pages by `.github/workflows/pages.yml` on every push to `main`.
 
 Speaker notes for all 52 slides are in the `notes` export of the deck, and the presenter view shows them. open-slide can also export the deck to HTML, PDF or PPTX from the editor.
 
